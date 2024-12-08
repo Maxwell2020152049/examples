@@ -1,6 +1,6 @@
 import sys
 
-from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QMessageBox
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QMessageBox
 
 
 def click_button():

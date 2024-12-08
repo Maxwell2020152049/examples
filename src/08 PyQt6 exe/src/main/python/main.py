@@ -1,5 +1,5 @@
-from fbs_runtime.application_context.PyQt6 import ApplicationContext
-from PyQt6.QtWidgets import QMainWindow
+from fbs_runtime.application_context.PyQt5 import ApplicationContext
+from PyQt5.QtWidgets import QMainWindow
 
 import sys
 

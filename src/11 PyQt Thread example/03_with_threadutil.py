@@ -1,5 +1,5 @@
-from PyQt6.QtCore import *
-from PyQt6.QtWidgets import *
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
 from requests import Session
 from threading import Thread
 from threadutil import run_in_main_thread

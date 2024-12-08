@@ -1,5 +1,5 @@
-from PyQt6.QtWidgets import *
-from PyQt6.QtCore import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import *
 
 headers = ["Scientist name", "Birthdate", "Contribution"]
 rows = [("Newton", "1643-01-04", "Classical mechanics"),

@@ -1,5 +1,5 @@
 from os.path import expanduser
-from PyQt6.QtWidgets import *
+from PyQt5.QtWidgets import *
 
 home_directory = expanduser('~')
 

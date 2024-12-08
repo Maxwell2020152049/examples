@@ -1,7 +1,7 @@
-from PyQt6.QtWidgets import *
-from PyQt6.QtGui import *
-from PyQt6.QtCore import *
-from PyQt6.QtMultimedia import QSound
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtMultimedia import QSound
 
 class PlainTextEdit(QPlainTextEdit):
     def __init__(self):
@@ -9,7 +9,7 @@ class PlainTextEdit(QPlainTextEdit):
         self._holes = []
         self._bullet = QPixmap("bullet.png")
         size = self._bullet.size()
-        self._offset = QPoint(size.width() / 2, size.height() / 2)
+        self._offset = QPoint(int(size.width() / 2), int(size.height() / 2))
     def mousePressEvent(self, e):
         self._holes.append(e.pos())
         super().mousePressEvent(e)
